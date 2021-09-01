@@ -1,0 +1,26 @@
+[2021-02-04T00:43:02.100699] Entering context manager injector.
+[2021-02-04T00:43:03.085940] Using urllib.request Python 3.0 or later
+Streaming log file azureml-logs/60_control_log.txt
+Running: ['cmd.exe', '/c', 'C:\\Users\\marce\\AppData\\Local\\Temp\\azureml_runs\\diabetes-experiment_1612399370_565fa03c\\azureml-environment-setup/conda_env_checker.bat']
+Starting the daemon thread to refresh tokens in background for process with pid = 24080
+Materialized conda environment not found on target: C:\Users\marce/.azureml/envs/azureml_da3e97fcb51801118b8e80207f3e01ad
+
+
+[2021-02-04T00:43:03.240947] Logging experiment preparation status in history service.
+Running: ['cmd.exe', '/c', 'C:\\Users\\marce\\AppData\\Local\\Temp\\azureml_runs\\diabetes-experiment_1612399370_565fa03c\\azureml-environment-setup/conda_env_builder.bat']
+Running: ['conda', '--version']
+[WinError 2] O sistema não pode encontrar o arquivo especificado
+
+Unable to run conda package manager. AzureML uses conda to provision python
+environments from a dependency specification. To manage the python environment
+manually instead, set userManagedDependencies to True in the python environment
+configuration. To use system managed python environments, install conda from:
+https://conda.io/miniconda.html
+
+
+
+[2021-02-04T00:43:07.669112] Logging error in history service: Failed to run ['cmd.exe', '/c', 'C:\\Users\\marce\\AppData\\Local\\Temp\\azureml_runs\\diabetes-experiment_1612399370_565fa03c\\azureml-environment-setup/conda_env_builder.bat'] 
+ Exit code 1 
+Details can be found in azureml-logs/60_control_log.txt log file.
+
+Uploading control log...
